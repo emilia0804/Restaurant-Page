@@ -1,0 +1,15 @@
+.contact,
+.mission,
+.story {
+  text-align: center;
+  background-color: var(--softRose-color);     
+  padding: 10px;                           
+  max-width: 60%;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(238, 130, 130);
+}
+
+.title{
+  padding: 30px;
+}

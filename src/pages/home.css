@@ -1,0 +1,33 @@
+.intro{
+    display: flex;
+    gap: 5px;
+    padding: 20px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.hours,
+.location {
+  text-align: center;
+  background-color: var(--red-color);      /* outer border color */
+  padding: 10px;                           /* border thickness */
+  clip-path: polygon(
+    20% 0%, 80% 0%, 100% 20%, 100% 80%,
+    80% 100%, 20% 100%, 0% 80%, 0% 20%
+  );
+  max-width: 60%;
+  margin: 40px auto;
+}
+
+.hours-inner,
+.location-inner{
+  background-color: var(--softRose-color); 
+  clip-path: inherit;                      
+  padding: 40px 60px;
+  color: var(--red-color);
+}

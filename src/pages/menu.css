@@ -1,0 +1,21 @@
+.menuInfo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.info{
+    margin-left: 70px;
+    width: 700px;
+}
+.menuName{
+    text-align: center;
+    padding: 15px 0;
+}
+.menu-photo{
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+}
